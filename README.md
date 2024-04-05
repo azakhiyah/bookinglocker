@@ -1,5 +1,13 @@
 BookingLocker
-BookingLocker is a simple backend application that allows users to register, book lockers, and access lockers using passwords. Below are the working scenarios:
+BookingLocker is a simple backend application that allows users to register, book lockers, and access lockers using passwords. 
+Follow this step to run project :
+- clone repo
+- setup file runDB.bat base on your environment
+- run command : mvn spring-boot : run 
+- Import file BookingLocker postman_collection into your postman
+- enjoy
+   
+Below are the working scenarios:
 
 1. User Registration
 Endpoint: POST /api/users/register
